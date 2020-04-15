@@ -17,7 +17,7 @@ hero:
   # button
   button:
     enable : true
-    label : "Download"
+    label : "Free Download"
     link : "https://www.fintechee.com/features/fix-api/"
 
 
