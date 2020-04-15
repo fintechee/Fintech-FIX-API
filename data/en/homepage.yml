@@ -1,0 +1,279 @@
+########################## hero area ##########################
+hero:
+  title : "FIX API Trading Platform"
+
+  # animated text loop
+  occupations:
+    - "Connect to FIX API from Local Desktop"
+    - "Algorithms Trading Supported"
+    - "WEB-based Charting System"
+
+  # slider background image loop
+  slider_image:
+    - "images/slider/newscreenshot1.png"
+    - "images/slider/multiplecharts.png"
+    - "images/slider/moresymbols.png"
+
+  # button
+  button:
+    enable : true
+    label : "Download"
+    link : "https://www.fintechee.com/features/fix-api/"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/slider/newscreenshot1.png"
+  first_name : "FIX API Trading Platform"
+  last_name : "Fintechee"
+
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/pexels-photo-366551.jpeg"
+  title : "KNOW MORE <br> ABOUT US"
+  content : "We made a full-featured FIX API trading platform for individual traders. It can be installed on the desktop. The server side(the backend of the institutional version) was rebuilt as a component to run on the PC. Individual traders can download the package and install it on their desktops and access the liquidity providers straightforward. If you choose this version, it's not required to access the server-side any more. You will have a standalone WEB server to run on your PC to enjoy this exclusive trading experience.............😊\n\nIf you are interested in the institutional version which matches brokerages and funds managers more, please click the button below to know more details."
+  # button
+  button:
+    enable : true
+    label : "For Institutional Brokers"
+    link : "https://www.fintechee.com/features/fix-api-trading-platform/" # you can put your cv in static folder and give the path here.
+
+###########################3 Experience ##############################
+experience:
+  enable : true
+  title : "FEATURES"
+  experience_list:
+    # experience item loop
+    - name : "Connect to FIX API from Local Desktop"
+      company : "QuickFIXj"
+      duration : "FIX4.4"
+      content : "More than 20 liquidity providers who integrate with FIX API trading platform as well collaborate with us."
+
+    # experience item loop
+    - name : "Algorithms Trading Supported"
+      company : "Fintechee SDK"
+      duration : "3.0"
+      content : "Algorithms for trading and backtesting a portfolio make traders have more choices for their Forex trading strategies."
+
+    # experience item loop
+    - name : "WEB-based Charting System"
+      company : "Fintechee Frontend"
+      duration : "3.0"
+      content : "Any operating system can be used for running the trading platform due to the WEB-based mechanism."
+
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : "REVIEW"
+  skill_list:
+    # skill item loop
+    - name : "Speed"
+      parcentage : "100%"
+
+    # skill item loop
+    - name : "Graphic"
+      parcentage : "100%"
+
+    # skill item loop
+    - name : "Customization"
+      parcentage : "100%"
+
+    # skill item loop
+    - name : "Report System (in Development)"
+      parcentage : "80%"
+
+
+################################### Service ##############################3
+service:
+  enable : true
+  title : "SERVICES"
+  service_list:
+    # service item loop
+    - name : "WEB-based"
+      image : "images/icons/web-development.png"
+
+    # service item loop
+    - name : "Charting System"
+      image : "images/icons/graphic-design.png"
+
+    # service item loop
+    - name : "FIX API Connectivity"
+      image : "images/icons/dbms.png"
+
+    # service item loop
+    - name : "Artificial Intelligence"
+      image : "images/icons/software-development.png"
+
+    # service item loop
+    - name : "Cloud Historical Data"
+      image : "images/icons/marketing.png"
+
+    # service item loop
+    - name : "SDK Trading"
+      image : "images/icons/mobile-app.png"
+
+
+############################## call to action #########################
+call_to_action:
+  enable : true
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "NEED A SERVICE?"
+  button:
+    enable : true
+    label : "SAY HELLO!"
+    link : "#contact"
+
+
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "PORTFOLIO"
+  portfolio_list:
+    # portfolio item loop
+    - name : "AlgoTrade <br> Soft"
+      image : "images/portfolio/item1.png"
+      date : "Jan 2020"
+      category : "Algorithms Trading"
+
+    # portfolio item loop
+    - name : "Price <br> Aggregator"
+      image : "images/portfolio/item2.png"
+      date : "Jan 2020"
+      category : "FIX API"
+
+    # portfolio item loop
+    - name : "Price <br> Aggregator"
+      image : "images/portfolio/item3.png"
+      date : "Jan 2020"
+      category : "FIX API"
+
+    # portfolio item loop
+    - name : "Artificial <br> Intelligence"
+      image : "images/portfolio/item2_2.jpg"
+      date : "Jan 2020"
+      category : "Algorithms Trading"
+
+    # portfolio item loop
+    - name : "Fintechee"
+      image : "images/portfolio/item5.png"
+      date : "Jan 2020"
+      category : "FIX API"
+
+    # portfolio item loop
+    - name : "Broker"
+      image : "images/portfolio/item6.png"
+      date : "Jan 2020"
+      category : "FIX API"
+
+    # portfolio item loop
+    - name : "Introducing <br> Broker"
+      image : "images/portfolio/item7.png"
+      date : "Jan 2020"
+      category : "FIX API"
+
+    # portfolio item loop
+    - name : "Brokerless"
+      image : "images/portfolio/item8.png"
+      date : "Jan 2020"
+      category : "Blockchain"
+
+    # portfolio item loop
+    - name : "Fintechee"
+      image : "images/portfolio/item9.png"
+      date : "Jan 2020"
+      category : "WEB Trader"
+
+    # portfolio item loop
+    - name : "Fintechee"
+      image : "images/portfolio/item10.png"
+      date : "Jan 2020"
+      category : "WEB Trader"
+
+    # portfolio item loop
+    - name : "Fintechee"
+      image : "images/portfolio/item11.png"
+      date : "Jan 2020"
+      category : "WEB Trader"
+
+    # portfolio item loop
+    - name : "Fintechee"
+      image : "images/portfolio/item12.png"
+      date : "Jan 2020"
+      category : "WEB Trader"
+
+    # portfolio item loop
+    - name : "Smart <br> Contract"
+      image : "images/portfolio/item12_1.png"
+      date : "Jan 2020"
+      category : "Payment Gateway"
+
+    # portfolio item loop
+    - name : "Brokerless"
+      image : "images/portfolio/item12_2.png"
+      date : "Jan 2020"
+      category : "Blockchain"
+
+    # portfolio item loop
+    - name : "Copy <br> Trading"
+      image : "images/portfolio/item15.png"
+      date : "Jan 2020"
+      category : "Algorithms Trading"
+
+
+################################# Testimonial #########################33
+testimonial:
+  enable : true
+  title : "Liquidity Providers"
+  testimonial_slider:
+    # slider item loop
+    - name : "LMAX Exchange"
+      image : "images/lp/lmax.jpg"
+      designation : "Global, High-growth, Award-winning"
+      content : "One of the fastest growing financial technology companies in the UK, they have a solid presence and exchange infrastructure in all major FX markets around the world, including Europe, North America and Asia-Pacific."
+
+    # slider item loop
+    - name : "Advanced Markets"
+      image : "images/lp/advancedmarkets.png"
+      designation : "Direct Market Access (DMA) via GUI, Bridge and/or FIX API"
+      content : "They recognize the importance of having a robust and non-latent technology infrastructure, one that caters to the needs of all institutional FX market participants, from banks and fund managers through to retail brokers and aggregators."
+
+    # slider item loop
+    - name : "CMC Markets Institutional"
+      image : "images/lp/cmc.png"
+      designation : "Listed on the London Stock Exchange"
+      content : "Their flexible approach means that clients can connect to their liquidity either by using proprietary trading platforms, or via third party technology. Comprehensive back-office reporting tools are also provided, including the innovative CMC Vision platform."
+
+
+######################### funfacts #############################3
+funfacts:
+  enable : true
+  funfacts_list:
+    # funfacts item loop
+    - name : "TRADING STRATEGIES"
+      image : "images/icons/works.png"
+      count : "100"
+
+    # funfacts item loop
+    - name : "HAPPY CLIENT"
+      image : "images/icons/happy.png"
+      count : "2000"
+
+    # funfacts item loop
+    - name : "FINISHED PROJECT"
+      image : "images/icons/project.png"
+      count : "50"
+
+    # funfacts item loop
+    - name : "LIQUIDITY PROVIDER"
+      image : "images/icons/coffee.png"
+      count : "20"
+
+
+############################## contact ###########################
+contact:
+  enable : true
+  title : "SAY HELLO!"
