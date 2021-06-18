@@ -86,7 +86,7 @@ weight = 6
 description = "We made a full-featured FIX API trading platform for individual traders. It can be installed on the desktop."
 author = "somrat"
 # contact form action
-contact_form_action = "" # contact form works with https://formspree.io
+contact_form_action = "https://fintechee.info/form/submit?formId=7" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "UA-163707565-1" # your id
 
@@ -110,7 +110,7 @@ link = "https://twitter.com/Fintechee1"
 
 [[params.social]]
 icon = "fa-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://github.com/fintechee/EA"
+link = "https://github.com/fintechee/Expert-Advisor-Studio"
 
 [[params.social]]
 icon = "fa-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
