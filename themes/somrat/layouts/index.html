@@ -184,6 +184,33 @@
 <!-- =============================
        Start About Me
     =============================== -->
+<section class="about-me" id="campaign">
+  <div class="container">
+    {{ if $data.homepage.campaign.enable }}
+    {{ with $data.homepage.campaign }}
+    <div class="row about-me-holder">
+      {{ with .image }}
+      <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
+        <img class="img-fluid" src="{{ . | absURL }}" alt="Fintechee FIX API trading platform individual version">
+      </div>
+      {{ end }}
+      <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+        <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+          <h1>{{ .title | safeHTML }}</h1>
+          <p>{{ .content | markdownify | emojify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang" style="background:#222222;color:#FFFFFF"> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+
 <section class="about-me" id="about">
   <div class="container">
     {{ if $data.homepage.about.enable }}
@@ -208,7 +235,11 @@
     </div>
     {{ end }}
     {{ end }}
+  </div>
+</section>
 
+<section class="about-me" id="experience">
+  <div class="container">
     <div class="row experience-skill">
       {{ if $data.homepage.experience.enable }}
       {{ with $data.homepage.experience }}
