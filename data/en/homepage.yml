@@ -32,7 +32,7 @@ fullscreen_nav:
 ########################### About ##################################
 about:
   enable : true
-  image : "images/backgrounds/pexels-photo-366551.jpeg"
+  image : "images/backgrounds/crypto-fix-api.png"
   title : "KNOW MORE <br> ABOUT US"
   content : "We made a full-featured FIX API trading platform for individual traders. It can be installed on the desktop. The server side(the backend of the institutional version) was rebuilt as a component to run on the PC. Individual traders can download the package and install it on their desktops and access the liquidity providers straightforward. If you choose this version, it's not required to access the server-side any more. You will have a standalone WEB server to run on your PC to enjoy this exclusive trading experience.............😊\n\nIf you are interested in the institutional version which matches brokerages and funds managers more, please click the button below to know more details."
   # button
@@ -40,6 +40,18 @@ about:
     enable : true
     label : "For Institutional Brokers"
     link : "https://www.fintechee.com/features/fix-api-trading-platform/" # you can put your cv in static folder and give the path here.
+
+########################### Campaign ##################################
+campaign:
+  enable : true
+  image : "images/backgrounds/pexels-photo-366551.jpeg"
+  title : "FREE CAMPAIGN <br> FOR GITHUB USERS"
+  content : "This campaign is targeted at Github tech users. Every Github user can get a free license for our FIX API trading platform individual version(pro plan without tech support). The free license will expire by the end of 2021. We offer several campaigns at the same time. The targeted users are different. So, please check the campaigns to make sure that you are in the correct scope of the specific campaign."
+  # button
+  button:
+    enable : true
+    label : "Free Campaign for Github Users"
+    link : "https://www.fintechee.com/marketing/campaign/" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
 experience:
