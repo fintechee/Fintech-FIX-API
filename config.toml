@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://www.fixapi.org"
-title = "FIX API Trading Platform"
+title = "We are reselling a FIX API Trading Platform"
 theme = "somrat"
 # disable language
 disableLanguages = [] # desable language from here
@@ -83,7 +83,7 @@ weight = 6
 # logo_light = "images/logo.png"
 # logo_dark = "images/logo-dark.png"
 # Meta data
-description = "We made a full-featured FIX API trading platform for individual traders. It can be installed on the desktop."
+description = "We are reselling a full-featured FIX API trading platform for individual traders. It can be installed on the desktop."
 author = "somrat"
 # contact form action
 contact_form_action = "https://fintechee.info/form/submit?formId=7" # contact form works with https://formspree.io
@@ -110,7 +110,7 @@ link = "https://twitter.com/Fintechee1"
 
 [[params.social]]
 icon = "fa-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://github.com/fintechee/Expert-Advisor-Studio"
+link = "https://www.fintechee.com/github/Expert-Advisor-Studio.html"
 
 [[params.social]]
 icon = "fa-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
@@ -125,7 +125,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 [Fintechee](https://www.fintechee.com) Powered by [somrat theme](https://somrat.netlify.com)"
+copyright = "Copyright &copy; 2020 [FIXAPI.org](https://www.fixapi.org) Powered by [somrat theme](https://somrat.netlify.com)"
 
 
 ################################### French language #####################################
